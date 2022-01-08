@@ -1,0 +1,330 @@
+/*      ----------UNIVERSAL------------     */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  /*font-family: 'Baloo Bhai 2', cursive;*/
+}
+
+/*          ----------HEADER----------         */
+
+header {
+  position: fixed;
+  padding-left: 100px;
+  background-color: rgb(255 204 0);
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  left: 60px;
+}
+
+.left img {
+  width: 50%;
+}
+
+.left div {
+  line-height: 19px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.right {
+  display: block;
+  width: 36%;
+  margin: 0px 850px;
+}
+
+.navbar {
+  display: inline-block;
+  padding: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: #101820ff;
+  text-decoration: none;
+  padding: 10px 23px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 900;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: rgb(151, 12, 36);
+}
+
+.first-img img {
+  width: 100%;
+}
+
+/*          ----------SECOND PAGE----------         */
+
+.section {
+  width: 100%;
+  min-height: 75vh;
+  background-color: rgb(224, 162, 123);
+}
+
+.container {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-top: 90px;
+}
+
+.content-sec {
+  float: left;
+  width: 50%;
+}
+
+.content {
+  text-align: justify;
+}
+
+.image-sec {
+  padding-top: 60px;
+  float: right;
+  width: 45%;
+}
+
+.image-sec img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.content-sec .title h1 {
+  text-transform: uppercase;
+  font-size: 56px;
+}
+
+h1 {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.content-sec .content h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
+}
+
+.content-sec .content p {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .content-sec {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .image-sec {
+    float: right;
+    width: 100%;
+  }
+
+  .image-sec img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .content-sec .title {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .content-sec .content {
+    text-align: center;
+    padding: 9px 30px;
+  }
+
+  .content-sec {
+    text-align: center;
+  }
+}
+
+/*          ----------THRID PAGE----------         */
+
+.donate-container {
+  position: relative;
+  text-align: center;
+  color: #040af1;
+}
+
+.donate-container img {
+  opacity: 0.8;
+}
+
+.donate-title {
+  position: absolute;
+  top: 200px;
+  right: 16px;
+  font-weight: 900px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.donate-btn {
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f2aa4cff;
+  font-size: 20px;
+  padding: 14px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.donate-btn:hover {
+  background-color: rgb(156, 245, 105);
+}
+
+.donate-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+/*          ----------FOOTER----------         */
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #101820ff;
+  height: auto;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-btn {
+  background: #101820ff;
+  width: 96%;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer-btn p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-btn p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-btn span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.footer-menu ul li a {
+  padding: 25px;
+  color: #cfd2d6;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/*          ----------DONATION PAGE----------         */
+
+.donation {
+  background-color: #f2fcff;
+  height: 785px;
+}
+
+.donation-img {
+  padding-top: 40px;
+  padding-left: 100px;
+  width: 45%;
+  float: left;
+}
+
+.donation-img img {
+  height: 700px;
+  border-radius: 20px;
+}
+
+.donation-container {
+  position: relative;
+  text-align: center;
+  color: darkblue;
+}
+
+.donation-title {
+  position: absolute;
+  top: 200px;
+  right: 80px;
+  font-weight: 900px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.donation-btn {
+  position: absolute;
+  top: 450px;
+  right: 360px;
+  background-color: #04093f;
+  padding: 10px 40px;
+  padding-top: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+/*          ----------CSS END----------         */
